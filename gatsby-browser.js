@@ -1,15 +1,14 @@
 import React from "react"
 import { createGlobalStyle, ThemeProvider } from "styled-components"
 import Theme from "./src/themes/theme"
-
+import "normalize.css"
 const GlobalStyle = createGlobalStyle`
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+body, html {
+  font-family: ${props => props.theme.fonts.main};
+
 }
- 
+
 
 `
 //wrapRootElement is part of Gatsby's' brsower & SSR API
