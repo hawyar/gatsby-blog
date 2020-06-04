@@ -6,10 +6,7 @@ const GlobalStyle = createGlobalStyle`
 
 body, html {
   font-family: ${props => props.theme.fonts.main};
-
 }
-
-
 `
 //wrapRootElement is part of Gatsby's' brsower & SSR API
 export const wrapRootElement = ({ element }) => (
