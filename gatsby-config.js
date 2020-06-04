@@ -44,5 +44,16 @@ module.exports = {
         ],
       },
     },
+    //google fonts laoder using gatsby-plugin
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Inter\:400,500,600,800`,
+          "roboto mono", // use for code display in mdx
+        ],
+        display: "swap",
+      },
+    },
   ],
 }
