@@ -1,4 +1,7 @@
-import { ThemeProvide } from "styled-components"
-import Theme from "./src/themes/theme"
 import React from "react"
-export const mainWrapper = el => <ThemeProvide theme={Theme}>{el}</ThemeProvide>
+import { ThemeProvider } from "styled-components"
+import Theme from "./src/themes/theme"
+
+export const wrapRootElement = ({ el }) => (
+  <ThemeProvider theme={Theme}>{el}</ThemeProvider>
+)
