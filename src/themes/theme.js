@@ -6,13 +6,13 @@ export default {
     code: "Roboto Mono, monospace",
   },
   color: {
-    primary: "black",
-    secondary: "blue",
-    dark1: "purple",
-    dark2: "red",
+    blue: "#10316b",
+    orange: "#e25822",
+    black: "#000000",
+    white: "#ececeb",
   },
   breakpoints: {
-    mobile: "onlt screen and (max-width: 50rem)",
+    mobile: "only screen and (max-width: 50rem)",
     tablet: "only screen and (max0width: 65rem)",
   },
   spacing: {
